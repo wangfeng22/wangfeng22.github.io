@@ -4,26 +4,17 @@
 entries:
   - title: info
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
       - title: github repo
         url: https://github.com/wangfeng22
+      - title: UP
+        url: https://space.bilibili.com/487355415
 
   - title: all posts
     post_list:
-      limit: 5
+      limit: 7
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
-
-  - title: posts by category
-    post_list:
-      category: example2
-      show_more: true
-      show_more_text: See more posts...
-      show_more_url: example2-archive.html
-
-  - title: UP
-    url: https://space.bilibili.com/487355415
   
   - title: another list
     entries:
