@@ -1,0 +1,6 @@
+## Linux命令行创建socket连接
+1. cd /proc/$$/fd -> 进入当前process的fd目录
+2. exec 8<> /dev/tcp/www.baidu.com/80 -> 创建socket
+3. echo -e "GET / HTTP/1.0\n" 1>& 8; -> 发送数据
+4. cat 0<& 8; -> 读取数据
+5. exec 8<& -; -> 关闭socket
